@@ -1,10 +1,16 @@
 version = 1
 
 [[analyzers]]
+name = "python"
+enabled = true
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
 name = "go"
 enabled = true
 
   [analyzers.meta]
-  import_root = "github.com/hasura/graphql-engine"
-  import_path = "github.com/hasura/graphql-engine/cli"
+  import_path = ["github.com/hasura/graphql-engine/cli"]
   dependencies_vendored = true
