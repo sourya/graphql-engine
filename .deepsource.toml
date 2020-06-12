@@ -7,3 +7,4 @@ enabled = true
   [analyzers.meta]
   import_root = "github.com/hasura/graphql-engine"
   import_path = "github.com/hasura/graphql-engine/cli"
+  dependencies_vendored = true
