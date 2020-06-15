@@ -5,6 +5,6 @@ name = "go"
 enabled = true
 
   [analyzers.meta]
-  import_path = ["github.com/hasura/graphql-engine/cli"]
+  import_paths = ["github.com/hasura/graphql-engine/cli"]
   import_root = "github.com/hasura/graphql-engine"
   dependencies_vendored = true
