@@ -1,10 +1,8 @@
 version = 1
 
 [[analyzers]]
-name = "go"
+name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  import_paths = ["github.com/hasura/graphql-engine/cli"]
-  import_root = "github.com/hasura/graphql-engine"
-  dependencies_vendored = true
+  runtime_env = ["node"]
